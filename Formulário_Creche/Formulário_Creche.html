@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição Creche</title>
+    <link rel="stylesheet" href="Formulário_Creche.css">
+</head>
+<body>
+    <h1>Inscrição Creche</h1>
+    <div class="criança">
+        <h3>Dados de indentificação da criança</h3>
+
+        <label for="date">Nome Completo:</label>
+        <input type="text" name="nome" placeholder="Digite o nome da criança" class="texto-input"><br>
+    
+        <label for="date">Data de Nascimento:</label>
+        <input type="date" name="data" placeholder="data"><br>
+    
+        <label for="date">Código Postal</label>
+        <input type="number"name="codigoPostal" placeholder="Digite o código postal" class="texto-input"><br>
+    
+        <label for="date">Localidade</label>
+        <input type="text" name="localidade" placeholder="localidade" class="texto-input"><br>
+    
+        <label for="date"> E-mail(se tiver)</label>
+        <input type="email" name="email" placeholder="exemplo@gmail.com" class="texto-input"><br>
+    
+        <h5>Reside com:</h5>
+
+        <input type="radio" name="reside" value="mãe">
+        <label for="mãe">Mãe</label>
+        <input type="radio" name="reside" value="pai">
+        <label for="pai">Pai</label>
+        <input type="radio" name="reside" value="outro">
+        <label for="outro">Outro</label>
+        <input type="text" name="reside" placeholder="Digite com quem reside" class="texto-input"><br>
+    
+        <h5>Cor/Raça</h5>
+        
+        <input type="radio" name="cor" value="amarelo">
+        <label for="amarelo">Amarelo</label>
+        <input type="radio" name="cor" value="branco">
+        <label for="branco">Branco</label><br>
+        <input type="radio" name="cor" value="Indigena">
+        <label for="Indigena">Indigena</label>
+        <input type="radio" name="cor" value="negro">
+        <label for="negro">Negro</label><br>
+        <input type="radio" name="cor" value="pardo">
+        <label for="pardo">Pardo</label>
+        <input type="radio" name="cor" value="não declarado">
+        <label for="não declarado">Não declarado</label>
+    
+        <h5>Sexo:</h5>
+
+        <input type="radio" name="sexo" value="feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label><br>
+    
+        <h5>O estudante é alérgico a alimentos</h5>
+        <input type="radio" name="alergia" value="sim">
+        <label for="sim">SIM</label>
+        <input type="radio" name="alergia" value="não">
+        <label for="não">NÃO</label><br>
+        
+        <h5>Se Sim Especifique quais</h5>
+
+        <input type="checkbox" name="alergico" value="leite">
+        <label for="leite">Leite de vaca</label><br>
+        <input type="checkbox" name="alergico" value="nozes">
+        <label for="nozes">Nozes</label><br>
+        <input type="checkbox" name="alergico" value="mariscos">
+        <label for="mariscos">Mariscos</label><br>
+        <input type="checkbox" name="alergico" value="clara">
+        <label for="clara">Clara de ovo</label><br>
+        <input type="checkbox" name="alergico" value="amendoim">
+        <label for="amendoim">Amendoim</label><br>
+        <input type="checkbox" name="alergico" value="trigo">
+        <label for="trigo">Trigo</label><br>
+        <input type="checkbox" name="alergico" value="soja">
+        <label for="soja">Soja</label><br>
+        <input type="checkbox" name="alergico" value="outro">
+        <label for="outro">Outro</label>
+        <label for="date"></label>
+        <input type="text" name="alergico" placeholder="Especifique quais:"><br><br>
+
+        <label for="date"> Senha/Código da Matrícula</label>
+        <input type="password" name="password" placeholder="senha/código da Matrícula" class="texto-input"><br>
+    </div>
+
+    <div class="adulto">
+        <h3>Dados Família</h3>
+
+        <h4>Mãe</h4>
+
+        <label for="date">Nome da Mãe:</label>
+        <input type="text" name="mãe" placeholder="Digite o nome da mãe" class="texto-input"><br>
+     
+        <label for="date">Data de Nascimento:</label>
+        <input type="date" name="data" placeholder="data" class="texto-input"><br>
+    
+        <label for="date">Código Postal</label>
+        <input type="number"name="codigoMãe" placeholder="Digite o código postal" class="texto-input"><br>
+    
+        <label for="date">Localidade</label>
+        <input type="text" name="localidadeMãe" placeholder="Digite sua localidade" class="texto-input"><br>
+
+        <label for="date">Nacionalidade</label>
+        <input type="text" name="nacionalidadeMãe" placeholder="Digite sua nacionalidade" class="texto-input"><br>
+
+        <label for="date">Naturalidade</label>
+        <input type="text" name="naturalidadeMãe" placeholder="Digite sua naturalidade" class="texto-input"><br>
+
+        <label for="date">Profissão</label>
+        <input type="text" name="profissãoMãe" placeholder="Digite suaprofissão" class="texto-input"><br>
+    
+        <label for="date"> E-mail</label>
+        <input type="email" name="emailMãe" placeholder="exemplo@gmail.com" class="texto-input"><br>
+
+        <h5>Estado cívil</h5>
+
+        <input type="radio" name="estado cívil" value="casada">
+        <label for="casada">casado(a)</label><br>
+        <input type="radio" name="estado cívil" value="solteira">
+        <label for="solteira">Solteiro(a)</label><br>
+        <input type="radio" name="estado cívil" value="divorciada">
+        <label for="divorciada">Divorciado(a)</label><br><br>
+
+        <h4>Pai</h4>
+
+        <label for="date">Nome do Pai:</label>
+        <input type="text" name="pai" placeholder="Digite o nome do pai" class="texto-input"><br>
+    
+        <label for="date">Data de Nascimento:</label>
+        <input type="date" name="data" placeholder="data" class="texto-input"><br>
+    
+        <label for="date">Código Postal</label>
+        <input type="number"name="codigoPai" placeholder="Digite o código postal" class="texto-input"><br>
+    
+        <label for="date">Localidade</label>
+        <input type="text" name="localidadePai" placeholder="Digite sua localidade" class="texto-input"><br>
+
+        <label for="date">Nacionalidade</label>
+        <input type="text" name="nacionalidadePai" placeholder="Digite sua nacionalidade" class="texto-input"><br>
+
+        <label for="date">Naturalidade</label>
+        <input type="text" name="naturalidadePai" placeholder="Digite sua naturalidade" class="texto-input"><br>
+
+        <label for="date">Profissão</label>
+        <input type="text" name="profissãoPai" placeholder="Digite suaprofissão" class="texto-input"><br>
+    
+        <label for="date"> E-mail</label>
+        <input type="email" name="emailPai" placeholder="exemplo@gmail.com" class="texto-input"><br>
+
+        <h5>Estado cívil</h5>
+        
+        <input type="radio" name="estado cívil" value="casado">
+        <label for="casado">casado(a)</label><br>
+        <input type="radio" name="estado cívil" value="solteiro">
+        <label for="solteiro">Solteiro(a)</label><br>
+        <input type="radio" name="estado cívil" value="divorciado">
+        <label for="divorciado">Divorciado(a)</label><br>
+    </div>
+
+</body>
+</html>
